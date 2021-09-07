@@ -9,5 +9,8 @@ public class StrBuild {
         str.append(" my").append(" world");
         for (int i = 0; i <100; i++) str.append(" ").append(i);
         System.out.println(str.toString());
+        for (int i = 0; i <100; i++){
+            System.out.println(str.charAt(i));
+        }
     }
 }
