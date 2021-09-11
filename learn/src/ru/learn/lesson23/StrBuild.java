@@ -1,4 +1,4 @@
-package ru.learn.Lesson23;
+package ru.learn.lesson23;
 
 import java.util.Locale;
 
