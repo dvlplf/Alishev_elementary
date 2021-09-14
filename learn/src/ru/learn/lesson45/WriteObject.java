@@ -6,13 +6,13 @@ import java.io.ObjectOutputStream;
 
 public class WriteObject {
     public static void main(String[] args) {
-        Person person1 = new Person(10, "Dave");
-        Person person2 = new Person(11, "Djon");
+        Person person1 = new Person(10, "Dave", "100");
+        Person person2 = new Person(11, "Djon", "100");
         Person[] people = {
-                new Person(122, "Tom"),
-                new Person(222, "Jerry"),
-                new Person(3, "Bob"),
-                new Person(4, "Jane"),
+                new Person(122, "Tom", "100"),
+                new Person(222, "Jerry", "100"),
+                new Person(322, "Bob", "100"),
+                new Person(4, "Jane", "100"),
         };
         try {
             FileOutputStream fos = new FileOutputStream("C:\\projects\\Alishev_elementary\\learn\\src\\ru\\learn\\lesson45\\people.bin");
