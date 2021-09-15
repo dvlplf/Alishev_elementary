@@ -2,13 +2,15 @@ package ru.learn.lesson42;
 
 public class Test {
     public static void main(String[] args) {
-        Animal an1 = new Animal(1);
-        Animal an2 = new Animal(1);
-        Animal an3 = an2;
-        System.out.println(an1 == an2);
-        System.out.println(an2.equals(an3));
-        System.out.println(an1.equals(an2));
-
+//        Animal an1 = new Animal(1);
+//        Animal an2 = new Animal(1);
+//        Animal an3 = an2;
+//        System.out.println(an1 == an2);
+//        System.out.println(an2.equals(an3));
+//        System.out.println(an1.equals(an2));
+        String str1 = "Hello";
+        String str2 = "Hello1";
+        System.out.println(str1.equals(str2));
     }
 }
 
