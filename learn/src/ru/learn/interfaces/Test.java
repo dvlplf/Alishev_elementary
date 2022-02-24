@@ -1,4 +1,5 @@
 package ru.learn.interfaces;
+import ru.learn.interfaces.Animal;
 
 public class Test {
     public static void main(String[] args) {

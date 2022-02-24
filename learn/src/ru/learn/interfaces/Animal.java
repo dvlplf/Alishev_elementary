@@ -1,4 +1,5 @@
 package ru.learn.interfaces;
+import ru.learn.interfaces.Animal;
 
 public class Animal implements Info {
     public int id;
